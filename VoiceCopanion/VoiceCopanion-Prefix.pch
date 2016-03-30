@@ -1,0 +1,107 @@
+//
+//  VoiceCopanion-Prefix.pch
+//  VoiceCopanion
+//
+//  Created by 米翊米 on 15/5/10.
+//  Copyright (c) 2015年 米翊米. All rights reserved.
+//
+
+#ifndef VoiceCopanion_VoiceCopanion_Prefix_pch
+#define VoiceCopanion_VoiceCopanion_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/**
+ *  主题颜色
+ */
+
+//RGB值方式
+#define RGBA(r,g,b,a)     [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:a]
+
+//16进制方式
+#define GetColorFromHex(hexColor) [UIColor colorWithRed:((hexColor >> 16) & 0xFF) / 255.0 green:((hexColor >>  8) & 0xFF) / 255.0 blue:((hexColor >>  0) & 0xFF) / 255.0 alpha:((hexColor >> 24) & 0xFF) / 255.0]
+
+#define LMH_COLOR_BACKGROUND    RGBA(242,242,242,1)
+#define LMH_COLOR_BLACKTEXT     RGBA(51,51,51,1)
+#define LMH_COLOR_GRAYTEXT      RGBA(102,102,102,1)
+#define LMH_COLOR_LGTGRAYTEXT   RGBA(153,153,153,1)
+#define LMH_COLOR_SKIN          RGBA(106, 113, 123,1)
+#define LMH_COLOR_ORANGE        RGBA(240,203,53,1)
+#define LMH_COLOR_LINE          RGBA(224,224,224,1)
+#define LMH_COLOR_LGTLINE       RGBA(240,240,240,1)
+#define LMH_COLOR_CELLBACK      RGBA(250,250,250,1)
+#define LMH_COLOR_CELLBACK      RGBA(250,250,250,1)
+//#define LMH_COLOR_BTNBACK       RGBA(71, 177, 156,1)
+#define LMH_COLOR_BTNBACK       RGBA(76, 94, 118,1)
+#define LMH_COLOR_LEFTBUT       RGBA(22, 22, 38,1)
+#define LMH_COLOR_CENTERBUT     RGBA(34, 34, 49,1)
+#define LMH_COLOR_NAVTITLE      RGBA(73, 96, 121,1)
+
+/**
+ *  字号设置
+ */
+#define LMH_FONT_30             [UIFont systemFontOfSize:30]
+#define LMH_FONT_25             [UIFont systemFontOfSize:25]
+#define LMH_FONT_20             [UIFont systemFontOfSize:20]
+#define LMH_FONT_19             [UIFont systemFontOfSize:19]
+#define LMH_FONT_18             [UIFont systemFontOfSize:18]
+#define LMH_FONT_17             [UIFont systemFontOfSize:17]
+#define LMH_FONT_16             [UIFont systemFontOfSize:16]
+#define LMH_FONT_15             [UIFont systemFontOfSize:15]
+#define LMH_FONT_14             [UIFont systemFontOfSize:14]
+#define LMH_FONT_13             [UIFont systemFontOfSize:13]
+#define LMH_FONT_12             [UIFont systemFontOfSize:12]
+#define LMH_FONT_11             [UIFont systemFontOfSize:11]
+#define LMH_FONT_10             [UIFont systemFontOfSize:10]
+#define LMH_FONT_9              [UIFont systemFontOfSize:9]
+
+/**
+ *  系统版本号判断
+ */
+#define IOS_6 [[[UIDevice currentDevice] systemVersion] floatValue]>=6.0?YES:NO
+#define IOS_7 [[[UIDevice currentDevice] systemVersion] floatValue]>=7.0?YES:NO
+#define IOS_8 [[[UIDevice currentDevice] systemVersion] floatValue]>=8.0?YES:NO
+
+/**
+ *  屏幕大小
+ */
+#define SCRW    [[UIScreen mainScreen] bounds].size.width
+#define SCRH    [[UIScreen mainScreen] bounds].size.height
+
+#define VIEW_W  self.view.bounds.size.width
+#define VIEW_H  self.view.bounds.size.height
+
+/**
+ *  系统默认导航栏(44)加状态栏(20)高度
+ */
+#define NAVHEIGHT   64
+
+/**
+ *  系统默认底部标签栏高度
+ */
+#define TABHEIGHT   49
+
+#define HEADERGHT   60
+
+/**
+ *  加载本地图片
+ */
+#define LOAD_LOCALIMG(imgName)   [UIImage imageNamed:imgName]
+
+/**
+ *  系统常用图片
+ */
+#define NAV_IMG     LOAD_LOCALIMG(@"nav_bg_red")
+
+//用户id
+#define SESSIONID [[NSUserDefaults standardUserDefaults] objectForKey:@"sessionId"]
+
+#define UMAPPID @"5603a052e0f55a9e78002aa4"
+
+//公用头文件
+
+
+#endif
+
+

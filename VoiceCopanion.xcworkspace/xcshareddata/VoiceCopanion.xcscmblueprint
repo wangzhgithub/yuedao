@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "1256ACF62F9594954653BB378B23AFAE6BF110EC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "1256ACF62F9594954653BB378B23AFAE6BF110EC" : 0,
+    "7CDAC52E2DCCD610B3E6976114C72689C724DB87" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "C05594A4-0B4E-4A21-889C-6C3E9AF4BBE2",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "1256ACF62F9594954653BB378B23AFAE6BF110EC" : "yuedao\/",
+    "7CDAC52E2DCCD610B3E6976114C72689C724DB87" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "VoiceCopanion",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "VoiceCopanion.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wangzhgithub\/yuedao.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "1256ACF62F9594954653BB378B23AFAE6BF110EC"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/wangzhgithub\/yuedao.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7CDAC52E2DCCD610B3E6976114C72689C724DB87"
+    }
+  ]
+}

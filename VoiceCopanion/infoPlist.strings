@@ -1,0 +1,9 @@
+/* 
+  infoPlist.strings
+  VoiceCopanion
+
+  Created by 米翊米 on 15/6/16.
+  Copyright (c) 2015年 米翊米. All rights reserved.
+*/
+CFBundleName = "约到";
+CFBundleDisplayName = "约到";
